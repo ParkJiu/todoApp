@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  min-height: 0;
+  background-color: var(--color-bg-darkmode);
+}
+
+.list {
+  padding: 0.5rem 1rem;
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  flex: 1 1 0%;
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+
+.checkbox {
+  cursor: pointer;
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+.button {
+  padding: 0.2rem;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 300ms ease-in-out;
+}
+
+.button:hover {
+  color: red;
+  transform: rotate(-30deg) scale(1.2);
+}
