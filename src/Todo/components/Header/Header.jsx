@@ -1,7 +1,6 @@
 import styles from './Header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun } from '@fortawesome/free-regular-svg-icons';
-import { useState } from 'react';
 import { useDarkMode } from '../../context/DarkModeContext';
 
 export default function Header({filters, filter, onFilterChange}) {
