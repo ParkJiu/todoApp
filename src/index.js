@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import AppProfile from './AppProfile';
 import reportWebVitals from './reportWebVitals';
-import AppCounter from './AppCounter';
-import AppProducts from './AppProducts';
-import Button1 from './components/Button1';
-import Button2 from './components/Button2';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
